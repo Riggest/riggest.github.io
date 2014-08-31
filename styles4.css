@@ -109,10 +109,9 @@ a {
 	text-decoration:none;
 }
 .myButton:hover {
-	background-color:rgba(0,0,0,0.3);
-	text-decoration: overline;
+background-color:rgba(174, 169, 170, 0.4);
 	color:white;
-	
+	text-decoration: overline;
 }
 .myButton:active {
 	position:relative;
