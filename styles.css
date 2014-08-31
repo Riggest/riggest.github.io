@@ -1,8 +1,9 @@
 
 body{
+	height: 100%;
 	width:100%;
 	margin: auto;
-	
+	font-family: "Helvetica";
 }
 
 .container{
@@ -27,7 +28,7 @@ body{
 	-webkit-font-smoothing: antialiased;
 }
 .container p{
-	border-bottom-width: 60px;
+	border-bottom-width: 50px;
 }
 
 a {
@@ -71,13 +72,27 @@ a {
 	width:auto;
 	text-align: center;
 	width: 100%;
-	font-size: 50px;
-	font-family: "Roboto";
+	
+}
+#banner p{
+
+	top:0;
+	font-size: 70px;
+	font-family: 'Lato', sans-serif;
 	font-weight: 200;
 	-webkit-font-smoothing: antialiased;
 	color: white;
+	text-shadow: 2px 1px black;
+	letter-spacing: 2px;
 	
-	
+	bottom: 3.5cm;
+	position: relative;
+}
+
+.section{
+	background-color: #ebeeed;
+	padding-top: 10px;
+	margin: 0;
 }
 /*
 .margins{
@@ -102,7 +117,7 @@ a {
 */
 .myButton {
 	
-	border-radius:5px;
+	
 	display:inline-block;
 	font-family:sans-serif;
 	font-size:16px;
@@ -112,7 +127,7 @@ a {
 .myButton:hover {
 	background-color:rgba(174, 169, 170, 0.4);
 	color:white;
-	text-decoration: overline;
+	
 }
 .myButton:active {
 	position:relative;
