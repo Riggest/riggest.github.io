@@ -119,3 +119,21 @@ a {
 	top:1px;
 }
 
+.content-info {
+	font-size: 15px;
+	text-align: center;
+	padding: 0;
+	background: #fff;
+	
+}
+.content-info li{
+	list-style:none;
+	font-family: "Helvetica";
+	-webkit-font-smoothing: antialiased;
+	padding-bottom: 25px;
+}
+
+.content-info a{
+	text-decoration: underline;
+	color: blue;
+}
