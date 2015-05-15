@@ -1,0 +1,155 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Haircut.me - Find out when you should cut your hair!</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+   <style type="text/css">
+   h1,h4,p{
+   	text-align: center;
+   }
+
+   .blog-footer {
+   	position: fixed;
+    bottom: 0;
+    width: 100%;
+  padding: 5px 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+.blog-footer p{
+	text-align: center;
+}
+
+.SmallClr {
+  color: #618F33;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+   </style>
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          
+          <a class="navbar-brand"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Haircut.me</a>
+        </div>
+      </div>
+    </nav>
+<div class="container">
+	<div class="row">
+		<div class="col-xs-9 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-5 col-md-offset-3">
+			<h1 >Hey There!</h1>
+			<h4 > I am currently developing a web app that determines, depending the type of hair you have, when you should get a haircut if you desire on maintaining a healthy hair! &nbsp; <small class="SmallClr"> Click on the buttons below respective to your hair size. </small> </h4> 
+		</div>
+	</div>
+</div>
+
+
+
+<div class="container">
+    <div class="row">
+      <div class=" col-xs-7 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-3 col-md-offset-4">
+    <form role="form" class="form-inline">  
+      <div class="accordion" id="myAccordion">
+      <div class="panel">
+      <button class="btn btn-info btn-block" data-toggle="collapse" data-target="#collapsible-1" data-parent="#myAccordion" style="font-size: 1.5em;">Bald</button>
+      <div id="collapsible-1" class="collapse">
+        <p>Etiam posuere quam ac quam. Maecenas aliquet accumsan leo. Nullam dapibus fermentum ipsum. Etiam quis quam. Integer lacinia. Nulla est.</p>
+    </div>
+        </div>
+        <div class="panel">
+      <button class="btn btn-warning btn-block" data-toggle="collapse" data-target="#collapsible-2" data-parent="#myAccordion" style="font-size: 1.5em;">Short</button>
+      <div id="collapsible-2" class="collapse">
+        <p >If you have a short hairstyle and want to maintain that, you should get a trim every <mark>3-4 weeks</mark></p>
+    </div>
+         </div>
+         <div class="panel">
+      <button class="btn btn-danger btn-block" data-toggle="collapse" data-target="#collapsible-3" data-parent="#myAccordion" style="font-size: 1.5em;">Long</button>
+      <div id="collapsible-3" class="collapse">
+                      <p>If you are sporting a longer haircut and want to maintain it that way, you should get a trim <strong>not later</strong> than <mark>5-6 weeks </mark></p>
+                  </div>
+         
+              </div>
+     </div>
+      </form> <!-- End Form -->
+    </div>
+      </div><!-- End Row -->
+  </div> <!-- End Container -->
+
+
+
+    
+      
+      
+  	     
+  
+ 
+
+
+ <footer class="blog-footer">
+      <p>© Rigo Mejia 2015. All right reserved.</p>
+     
+    </footer>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+ <script>
+
+function myFunction()
+{
+var meal;
+meal = prompt("How much was the meal?");
+
+meal = eval(meal);
+
+
+var tip = meal *.15;
+var total = meal + tip;
+
+alert("the meal is $" + meal);
+
+alert("the tip is $" + tip);
+
+
+}
+alert("Total bill: $" + total);
+    
+</script>
+
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
