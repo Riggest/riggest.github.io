@@ -2,15 +2,23 @@
 <html  lang="en">
   
 
-<head>
+<head prefix="og: http://ogp.me/ns#">
     <meta charset="utf-8">
+    <meta name="description" content="Personal webpage for Rigo Mejia.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Rigo Mejia">
     <link rel="icon" href="http://getbootstrap.com/favicon.ico">
     <title>HomePage</title>
-
+    <meta property="og:title" content="Rigo Mejia" />
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://riggest.github.io/">
+    <meta property="og:image" content="rm.jpg" />
+    <meta property="og:image:width" content="250">
+    <meta property="og:image:height" content="250">
+    <meta property="og:description" content="Rigo Mejia's personal webpage and blogpage." />
+    
+    <meta prefix="fb: http://riggest.github.io/" property="fb:app_id" content="1601947800080861" /> 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap.min.css" rel="stylesheet">
 
@@ -30,6 +38,15 @@
 </head>
 
   <body>
+<div id="fb-root"></div>
+  <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=1601947800080861";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
 
     <div class="site-wrapper">
 
@@ -61,7 +78,8 @@
 
           <div class="mastfoot">
             <div class="inner" style="padding-bottom: 0px;">
-              <p>© Rigo Mejia 2015. All right reserved.</p>
+              <p>© Rigo Mejia 2015. All right reserved.</p> 
+              <p style= "font-size:12px">share this page on facebook!</p> <div class="fb-share-button" data-href="http://riggest.github.io/" data-layout="button"></div>
             </div>
           </div>
 
@@ -89,7 +107,27 @@
     <script src="docs.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="ie10-viewport-bug-workaround.js"></script>
-  </body>
+
+
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '1601947800080861',
+        xfbml      : true,
+        version    : 'v2.3'
+      });
+    };
+
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "//connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+</body>
 
 
 </html>
